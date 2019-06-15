@@ -1,5 +1,5 @@
 *{ margin: 0px; padding: 0px;}
-a{ text-decoration: none; color:black;}
+a{ text-decoration: none; color:white;}
 ul li{ list-style: none;}
 .clearfix:after {
     content: ".";
@@ -20,10 +20,9 @@ body{ font-family: Arial; font-size: 16px}
 }
 
 /* style cho phần head */
-#head{background: #f4f4f4; }
+#head{background: black; height: 50px;}
 #logo, #main_menu{float: left;}
-#search{float: right;}
-#main_menu>li{float: left; border-right: 1px solid #e8e8e8;}
+#main_menu>li{float: left; color:  black;}
 #main_menu>li:last-child{border-right: none;}
 #main_menu li{position: relative;}
 #main_menu>li a{display: block; text-transform: none; display: block; padding: 10px;}
@@ -34,11 +33,11 @@ body{ font-family: Arial; font-size: 16px}
     width: 150px;
     top: 0px;
     left: 100%;
-    background: #f4f4f4;
+    background: black;
 }
-#main_menu>li>.sub_menu{top: 58px; position: absolute; left: 0px;}
+#main_menu>li>.sub_menu{top: 50px; position: absolute; left: 0px;}
 #main_menu li:hover>.sub_menu{display: block;}
-#main_menu li:hover{background: #fcfcfc;}
+#main_menu li:hover{background: black;}
 
 
 /* thiết kế cho phần main content */
