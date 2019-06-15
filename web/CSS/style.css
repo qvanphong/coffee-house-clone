@@ -1,0 +1,49 @@
+*{ margin: 0px; padding: 0px;}
+a{ text-decoration: none; color:black;}
+ul li{ list-style: none;}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix{
+    clear: both;
+    display: block;
+}
+body{ font-family: Arial; font-size: 16px}
+.wrapper_container{
+    width: 1280px;
+    margin: 0px auto;
+}
+
+/* style cho phần head */
+#head{background: #f4f4f4; }
+#logo, #main_menu{float: left;}
+#search{float: right;}
+#main_menu>li{float: left; border-right: 1px solid #e8e8e8;}
+#main_menu>li:last-child{border-right: none;}
+#main_menu li{position: relative;}
+#main_menu>li a{display: block; text-transform: none; display: block; padding: 10px;}
+#main_menu>li>a{display: block; padding: 20px; text-transform: uppercase;}
+#main_menu li .sub_menu{ 
+    position: absolute;
+    display: none;
+    width: 150px;
+    top: 0px;
+    left: 100%;
+    background: #f4f4f4;
+}
+#main_menu>li>.sub_menu{top: 58px; position: absolute; left: 0px;}
+#main_menu li:hover>.sub_menu{display: block;}
+#main_menu li:hover{background: #fcfcfc;}
+
+
+/* thiết kế cho phần main content */
+#main_content{ min-height: 800px;}
+
+/* thiết kế cho phần footer */
+#footer{background: #f4f4f4;padding: 18px 0px;line-height: 19px;}
+
