@@ -22,15 +22,10 @@ body{ font-family: 'Alegreya Sans SC';}
 /* style cho phần head */
 #head{background: black; height: 50px; font-size: 20px;}
 #logo, #main_menu{float: left;}
-<<<<<<< HEAD
 #main_menu{
     height: 5%;
     margin: -1px;
 }
-=======
-#main_menu{margin-left: 700px;}
-#main_menu {left: 40px;}
->>>>>>> 37d4af6a87e9f4166df0c369b24a5210c276d237
 #main_menu>li{float: left; color:  black;}
 #main_menu>li:last-child{border-right: none;}
 #main_menu li{position: relative;}
