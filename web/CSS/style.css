@@ -35,6 +35,7 @@ body {
 }
 
 /* style cho phần head */
+<<<<<<< HEAD
 #head {
     display: flex;
     background: black;
@@ -52,6 +53,11 @@ body {
 }
 
 #main_menu {
+=======
+#head{background: black; height: 50px; font-size: 20px;}
+#logo, #main_menu{float: left;}
+#main_menu{
+>>>>>>> a6951724914f342d3ba9840ebc64e98f7c490b7d
     height: 5%;
     margin: -1px;
     flex: 1;
@@ -83,8 +89,17 @@ body {
     padding-top: 12px;
     text-transform: uppercase;
 }
+<<<<<<< HEAD
 
 #main_menu li .sub_menu {
+=======
+#main_menu>li{float: left; color:  black;}
+#main_menu>li:last-child{border-right: none;}
+#main_menu li{position: relative;}
+#main_menu>li a{display: block; text-transform: none; display: block; padding: 10px;}
+#main_menu>li>a{display: block; padding: 20px; text-transform: uppercase;}
+#main_menu li .sub_menu{ 
+>>>>>>> a6951724914f342d3ba9840ebc64e98f7c490b7d
     position: absolute;
     display: none;
     width: 150px;
