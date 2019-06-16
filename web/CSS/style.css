@@ -134,6 +134,8 @@ body {
     top: 80%;
     right: 40%;
     width: 15%;
+    transition: all .5s ease;
+
 }
 
 #onscreen-button .btn {
@@ -146,11 +148,15 @@ body {
     background-color: orange;
     border-color: orange;
     border-radius: 20px 20px 20px 20px;
+
 }
 
 #onscreen-button:hover {
     transform: scale(1.2);
-    transition: all .5s;
+}
+
+#onscreen-button .btn:hover {
+    color: white;
 }
 
 
@@ -182,6 +188,16 @@ body {
         padding-right: 1rem;
         padding-left: .5rem;
         font-family: HapnaSlabSerif, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .nav-pad a{
+        transition: all 0.5s ease;
+    }
+
+    .nav-pad a:hover {
+        color: white;
+        transform: scale(1.2);
     }
 }
 
