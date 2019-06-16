@@ -13,19 +13,24 @@ ul li{ list-style: none;}
     clear: both;
     display: block;
 }
-body{ font-family: Arial; font-size: 16px}
+body{ font-family: 'Alegreya Sans SC';}
 .wrapper_container{
     width: 1280px;
     margin: 0px auto;
 }
 
 /* style cho phần head */
-#head{background: black; height: 50px;}
+#head{background: black; height: 50px; font-size: 20px;}
 #logo, #main_menu{float: left;}
+<<<<<<< HEAD
 #main_menu{
     height: 5%;
     margin: -1px;
 }
+=======
+#main_menu{margin-left: 700px;}
+#main_menu {left: 40px;}
+>>>>>>> 37d4af6a87e9f4166df0c369b24a5210c276d237
 #main_menu>li{float: left; color:  black;}
 #main_menu>li:last-child{border-right: none;}
 #main_menu li{position: relative;}
@@ -41,7 +46,8 @@ body{ font-family: Arial; font-size: 16px}
 }
 #main_menu>li>.sub_menu{top: 50px; position: absolute; left: 0px;}
 #main_menu li:hover>.sub_menu{display: block;}
-#main_menu li:hover{background: black;}
+#main_menu li:hover{background: black;  height: 50px;}
+
 
 
 /* thiết kế cho phần main content */

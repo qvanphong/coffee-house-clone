@@ -9,72 +9,46 @@
 <html>
 <head>
     <script src="JS/jQuery.js"></script>
-    <script src="JS/responsiveslides.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css"/>
+    <title>DeadLine Café</title>
 
 </head>
 <body>
-<div class="rslides">
-    <div>
-        <img class="darkfade" src="https://assetstools.cosentino.com/api/v1/bynder/color/SL6/detalle/SL6-detail.jpg">
-        <img src="http://file.hstatic.net/1000075078/file/banner_web_007fa9c13b95415cbcb983f497a5b20c_master.jpg">
+<div id="carouselExample1" class="carousel slide z-depth-1-half" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style="width: 100%; height: 100%" src="http://file.hstatic.net/1000075078/file/bg_59e90a83f96b4d73896753c13f89f8e9_master.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img style="width: 100%; height: 100%" src="http://file.hstatic.net/1000075078/file/4_master.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img style="width: 100%; height: 100%" src="http://file.hstatic.net/1000075078/file/banner_web_007fa9c13b95415cbcb983f497a5b20c_master.jpg" alt="Third slide">
+        </div>
     </div>
-    <div>
-        <img class="darkfade" src="https://assetstools.cosentino.com/api/v1/bynder/color/SL6/detalle/SL6-detail.jpg">
-        <img src="http://file.hstatic.net/1000075078/file/bg_59e90a83f96b4d73896753c13f89f8e9_master.jpg">
-    </div>
-    <div>
-        <img class="darkfade" src="https://assetstools.cosentino.com/api/v1/bynder/color/SL6/detalle/SL6-detail.jpg">
-        <img src="http://file.hstatic.net/1000075078/file/4_master.jpg">
-    </div>
+    <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
+
 </body>
 
 
 <style>
-    body {
-        margin: 0px;
-    }
 
-
-    .rslides {
-        position: relative;
-        list-style: none;
-        overflow: hidden;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .rslides > div {
-        -webkit-backface-visibility: hidden;
-        position: absolute;
-        display: none;
-        width: 100%;
-        left: 0;
-        top: 0;
-    }
-
-    .rslides:first-child {
-        position: relative;
-        display: block;
-    }
-
-    .darkfade{
-        position: absolute;
-        opacity: 0.2;
-    }
-
-    .rslides > div > img {
-        display: block;
-        height: 100vh;
-        width: 100vw;
-        border: 0;
-    }
 </style>
 
 <script>
-    $(function () {
-        $(".rslides").responsiveSlides();
+    $('#carouselExample1').carousel({
+        interval: 3000,
+        ride: true
     });
 </script>
 </html>
