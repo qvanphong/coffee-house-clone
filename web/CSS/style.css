@@ -47,7 +47,7 @@ body {
     z-index: 2;
 }
 
-#logo{
+#logo {
     flex: 2;
 }
 
@@ -57,12 +57,12 @@ body {
     flex: 1;
 }
 
-#main_menu > li {
+#main_menu>li {
     float: left;
     color: black;
 }
 
-#main_menu > li:last-child {
+#main_menu>li:last-child {
     border-right: none;
 }
 
@@ -70,14 +70,14 @@ body {
     position: relative;
 }
 
-#main_menu > li a {
+#main_menu>li a {
     display: block;
     text-transform: none;
     display: block;
     padding: 10px;
 }
 
-#main_menu > li > a {
+#main_menu>li>a {
     display: block;
     padding: 20px;
     padding-top: 12px;
@@ -93,13 +93,13 @@ body {
     background: black;
 }
 
-#main_menu > li > .sub_menu {
+#main_menu>li>.sub_menu {
     top: 50px;
     position: absolute;
     left: 0px;
 }
 
-#main_menu li:hover > .sub_menu {
+#main_menu li:hover>.sub_menu {
     display: block;
 }
 
@@ -128,7 +128,7 @@ body {
     color: #fff;
 }
 
-#onscreen-button{
+#onscreen-button {
     position: fixed;
     z-index: 1030;
     top: 80%;
@@ -136,7 +136,7 @@ body {
     width: 15%;
 }
 
-#onscreen-button .btn{
+#onscreen-button .btn {
     font-family: HapnaSlabSerif;
     font-size: 28px;
     font-weight: 900;
@@ -154,17 +154,17 @@ body {
 }
 
 
-@media (max-width: 768px){
-    #onscreen-button{
+@media (max-width: 768px) {
+    #onscreen-button {
         right: 0;
-    position: fixed;
-    z-index: 1030;
-    width: 100%;
-    bottom: 0;
-    top: unset;
+        position: fixed;
+        z-index: 1030;
+        width: 100%;
+        bottom: 0;
+        top: unset;
     }
 
-    #onscreen-button .btn{
+    #onscreen-button .btn {
         font-family: HapnaSlabSerif;
         font-size: 28px;
         font-weight: 900;
@@ -173,12 +173,20 @@ body {
         width: 100%;
         background-color: orange;
         border-color: orange;
-        border-radius: 0 0 0 0  ;
+        border-radius: 0 0 0 0;
     }
 }
 
-@font-face{
-    font-family:"HapnaSlabSerif";
-    src:url("../font/HapnaSlabSerif-Light.ttf") format("truetype");
+@media (min-width: 768px) {
+    .nav-pad {
+        padding-right: 1rem;
+        padding-left: .5rem;
+        font-family: HapnaSlabSerif, sans-serif;
+    }
+}
+
+@font-face {
+    font-family: "HapnaSlabSerif";
+    src: url("../font/HapnaSlabSerif-Light.ttf") format("truetype");
     /* src:url("../font/3d9ec9a9-76a2-4cfe-b376-76e7340c3b50.eot?#iefix") format("eot"),url("../font/e0d6f852-5401-4bbf-9672-47a50c5c87c6.woff2") format("woff2"),url("../font/7fedd582-6ae3-4850-be2f-4acae2e74fa5.woff") format("woff"),url("../font/d6e08ef3-40db-4ac3-82df-f062f55a72f5.ttf") format("truetype"); */
 }
