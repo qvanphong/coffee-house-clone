@@ -184,11 +184,16 @@ body {
 }
 
 @media (min-width: 768px) {
-    .nav-pad {
+    .nav-pad  a {
         padding-right: 1rem;
         padding-left: .5rem;
         font-family: HapnaSlabSerif, sans-serif;
         text-transform: uppercase;
+        font-family: HapnaSlabSerif;
+        font-size: 15px;
+        font-weight: 900;
+        display: block;
+        color: #ffffff;
     }
 
     .nav-pad a{
