@@ -180,7 +180,7 @@ body {
         background-color: orange;
         border-color: orange;
         border-radius: 0 0 0 0;
-    }
+    } 
 }
 
 @media (min-width: 768px) {
