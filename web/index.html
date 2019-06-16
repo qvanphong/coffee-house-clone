@@ -5,6 +5,7 @@
     <script src="JS/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css" type="text/css" />
     <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="IMAGES/favicon.ico" />
     <title>DeadLine Café</title>
 
 </head>
@@ -19,13 +20,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#" style="font-family: HapnaSlabSerif, sans-serif;">Thực đơn
-                            <span class="sr-only">(current)</span>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown"
+                            style="font-family: HapnaSlabSerif, sans-serif;">
+                            Thực Đơn
                         </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tea - Milk Tea</a>
+                            <a class="dropdown-item" href="#">Fruits Juice</a>
+                            <a class="dropdown-item" href="#">Café</a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="font-family: HapnaSlabSerif, sans-serif;">Cửa hàng</a>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown"
+                            style="font-family: HapnaSlabSerif, sans-serif;">
+                            Cửa Hàng
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">624 Âu Cơ, Phường 10, Quận Tân Bình, TP. Hồ Chí Minh</a>
+                            <a class="dropdown-item" href="#">665-667-669 Điện Biên Phủ, Phường 1, Quận 3, TP. Hồ Chí
+                                Minh</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="font-family: HapnaSlabSerif, sans-serif;">Liên hệ</a>
