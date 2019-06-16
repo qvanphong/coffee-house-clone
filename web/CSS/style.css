@@ -148,6 +148,12 @@ body {
     border-radius: 20px 20px 20px 20px;
 }
 
+#onscreen-button:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
 @media (max-width: 768px){
     #onscreen-button{
         right: 0;
