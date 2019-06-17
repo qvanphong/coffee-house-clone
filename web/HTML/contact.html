@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <title>Liên hệ</title>
+    <script src="../JS/jQuery.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="../IMAGES/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+</head>
+
+<body style="background-color: #f5f5f5">
+
+    <!--Navigator Bar-->
+    <nav class="navbar fixed-top bg-dark navbar-expand-md" style="background-color: #000000!important;">
+        <div class="container" style="height: 50%">
+            <a class="navbar-brand" href="#"><img src="../IMAGES/logo_trans.png"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white">☰</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto ">
+                    <!--Dropdown Thực đơn.-->
+                    <li class="nav-item dropdown nav-pad">
+                        <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">Thực đơn</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tea - Milk Tea</a>
+                            <a class="dropdown-item" href="#">Fruits Juice</a>
+                            <a class="dropdown-item" href="#">Café</a>
+                        </div>
+                    </li>
+
+                    <!--Dropdown Cửa hàng-->
+                    <li class="nav-item dropdown nav-pad">
+                        <a class="nav-link" href="#" data-toggle="dropdown">Cửa hàng</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">624 Âu Cơ, Phường 10, Quận Tân Bình, TP. Hồ Chí Minh</a>
+                            <a class="dropdown-item" href="#">665-667-669 Điện Biên Phủ, Phường 1, Quận 3, TP. Hồ Chí
+                                Minh</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-pad">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+        Phần content
+        contact_wrap để tý nữa tăng padding cho nó.
+    -->
+    <div class="contact_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <p class="h1 underline_heading">LIÊN HỆ</p>
+                </div>
+            </div>
+
+            <div class="row" style="padding-top: 3rem">
+                <div class="col-sm-3 response_col">
+                    <img class="avatar" src="../IMAGES/phongdeptrai_avatar.jpg" />
+                </div>
+                <div class="col-sm-6 d-flex justify-content-start">
+                    <div style="padding-left: 3rem">
+                        <p class="h1">CEO QUAN VAN PHONG</p>
+                        <p class="h5">Số điện thoại:
+                            <small> +84 79 373 2459</small>
+                        </p>
+                        <p class="h5">Email:
+                            <small> qvanphong@gmail.com</small>
+                        </p>
+                        Liên hệ hợp tác, giao hàng, góp ý về chất lượng phục vụ, thái độ nhân viên, phản ánh, tâm sự sự đời, bú tý cà phê giao lưu.
+                        <blockquote class="text-right">
+                                <p class="mb-0">"Cuộc sống nó không giống cuộc đời đâu ông."</p>
+                                <footer class="blockquote-footer"><cite title="Nguồn">Quan Văn Phong</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 3rem">
+                    <div class="col-sm-3 response_col">
+                        <img class="avatar" src="../IMAGES/huydeptrai_avatar.jpg" />
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-start">
+                        <div style="padding-left: 3rem">
+                            <p class="h1">CEO NGUYEN TU HUY</p>
+                            <p class="h5">Số điện thoại:
+                                <small> thay ở đây</small>
+                            </p>
+                            <p class="h5">Email:
+                                <small> thay ở đây</small>
+                            </p>
+                            Liên hệ hợp tác, giao hàng, góp ý về chất lượng phục vụ, thái độ nhân viên, phản ánh, tâm sự sự đời, bú tý cà phê giao lưu.
+                            <blockquote class="text-right">
+                                    <p class="mb-0">"Cuộc sống nó giống cuộc đời mà ông."</p>
+                                    <footer class="blockquote-footer"><cite title="Nguồn">Nguyễn Từ Huy</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+<style>
+    .contact_wrap {
+        padding-top: 5%;
+    }
+
+    .underline_heading:after {
+        content: "";
+        height: 4px;
+        background: #ffcd7f;
+        display: block;
+    }
+
+    .avatar {
+        height: 25%;
+        border-radius: 50%;
+    }
+
+    @media (max-width: 575px){
+        .avatar {
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        .response_col{
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+
+        .contact_wrap {
+            padding-top: 30%;
+        }
+    }
+</style>
+
+</html>
