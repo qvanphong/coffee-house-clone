@@ -1,9 +1,0 @@
-diff a/web/index.html b/web/index.html	(rejected hunks)
-@@ -12,7 +12,6 @@
- <body>
-     <nav class="navbar fixed-top  navbar-expand-md" style="background-color: black; height: 50px;" style="height: 5%">
-         <div class="container" style="height: 50%">
--            <a class="navbar-brand" href="#" style="padding-top: 0rem;"><img src="IMAGES/log.png"></a>
-             <a class="navbar-brand" href="#" style="padding-top: 0rem;"><img src="IMAGES/Logo.png"></a>
-             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
