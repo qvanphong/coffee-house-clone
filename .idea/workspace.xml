@@ -7,79 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b99c687e-c7b1-4df6-8ec9-485bca8265ef" name="Default Changelist" comment="Them JS folder">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/qlbh_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/CSS/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/CSS/style_menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/HTML/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/HTML/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/HTML/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/HTML/menu_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/HTML/stores.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/Menu/CARAMEL MACCHIATO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/Menu/TRÀ OOLONG VẢI NHƯ Ý.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/Menu/ca_phe_den.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/Menu/caramel_macchiato.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/Menu/tra_dao_cam_sa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/cute-skull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/huydeptrai_avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/logo_trans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/IMAGES/phongdeptrai_avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/JS/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/JS/responsiveslides.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/JS/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font/3d9ec9a9-76a2-4cfe-b376-76e7340c3b50.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font/7fedd582-6ae3-4850-be2f-4acae2e74fa5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font/BebasNeue.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font/HapnaSlabSerif-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font/d6e08ef3-40db-4ac3-82df-f062f55a72f5.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/font/e0d6f852-5401-4bbf-9672-47a50c5c87c6.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html.rej" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qlbh_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/qlbh_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qlbh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qlbh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/style_menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/HTML/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/HTML/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/HTML/menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/HTML/menu_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/HTML/stores.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/Menu/CARAMEL MACCHIATO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/Menu/TRÀ OOLONG VẢI NHƯ Ý.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/Menu/ca_phe_den.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/Menu/caramel_macchiato.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/Menu/tra_dao_cam_sa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/cute-skull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/huydeptrai_avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/logo_trans.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/IMAGES/phongdeptrai_avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JS/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JS/jQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JS/responsiveslides.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JS/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/3d9ec9a9-76a2-4cfe-b376-76e7340c3b50.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/7fedd582-6ae3-4850-be2f-4acae2e74fa5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/BebasNeue.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/HapnaSlabSerif-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/d6e08ef3-40db-4ac3-82df-f062f55a72f5.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/font/e0d6f852-5401-4bbf-9672-47a50c5c87c6.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html.rej" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/HTML/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/HTML/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/IMAGES/Menu/TRÀ OOLONG VẢI NHƯ Ý.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/HTML/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="-1009">
+              <caret line="84" column="51" lean-forward="true" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -121,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="594">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -190,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/HTML/stores.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/HTML/contact.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/HTML/menu.html" />
       </list>
     </option>
   </component>
@@ -207,7 +137,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="943" />
@@ -461,7 +391,7 @@
       <updated>1560579575719</updated>
       <workItem from="1560579576845" duration="11856000" />
       <workItem from="1560667288659" duration="9181000" />
-      <workItem from="1561053730487" duration="1883000" />
+      <workItem from="1561053730487" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1560579599549</created>
@@ -509,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22920000" />
+    <option name="totallyTimeSpent" value="23296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -664,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/HTML/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/HTML/stores.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -693,8 +616,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="594">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/HTML/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1009">
+          <caret line="84" column="51" lean-forward="true" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
         </state>
       </provider>
     </entry>
